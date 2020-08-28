@@ -1,7 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
+% Author : Soner Albayrak
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -14,7 +13,6 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -27,13 +25,13 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+%\addtolength{\oddsidemargin}{-0.21in}
+%\addtolength{\evensidemargin}{-0.21in}
+%\addtolength{\textwidth}{.42in}
+\addtolength{\topmargin}{-.1in}
+\addtolength{\textheight}{0.2in}
 
-\urlstyle{same}
+%\urlstyle{same}
 
 \raggedbottom
 \raggedright
@@ -75,126 +73,148 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+
+\usepackage[
+colorlinks, 
+breaklinks,
+linkcolor=blue, 
+citecolor=blue, 
+urlcolor=blue, 
+pdftitle={Soner Albayrak - CV},
+pdfauthor={Soner Albayrak},
+unicode,
+linktocpage]{hyperref} 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\setlist[itemize]{leftmargin=1.8em}
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\huge \textcolor{Orange}{Soner Albayrak}} & Email : \href{mailto:soner.albayrak@yale.edu}{soner.albayrak@yale.edu}\\
+Yale University, Department of Physics & Skype: \href{skype:albayrak.soner?add}{albayrak.soner} \\
+New Haven 06511, CT  & Mobile : +1-475-441-2552 \\
+ USA &   \href{http://www.soneralbayrak.com}{soneralbayrak.com}
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
-    \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
-  \resumeSubHeadingListEnd
+\section{\textcolor{Orange}{Academic and Professional Preparation}}
+\begin{itemize}[noitemsep,nolistsep] 
+	\item[] \textbf{Yale University, New Haven, CT}\hfill 2016-2021
+	\vspace*{-.5em}
+	\begin{itemize}
+		\item[] Doctor of Philosophy in Physics \hfill (Advisor: David Poland)\hspace*{2.2em}\vspace*{-.5em}
+		\begin{itemize}
+			\item[] Dissertation title: \emph{Analytical \& Numerical Studies in Fermion Conformal Bootstrap}\vspace*{-.5em}
+		\end{itemize}
+		\item[] Master of Philosophy in Physics\vspace*{-.5em}
+		\item[]Master of Science in Physics
+	\end{itemize} 
+	\item[] \textbf{California Institute of Technology, Pasadena, CA}\hfill 2018-2019
+	\vspace*{-.5em}
+\begin{itemize}
+	\item[] Visiting Student Researcher \hfill (Host: David Simmons Duffin)\hspace*{2.2em}\vspace*{-.5em}
+	\item[] Simons Bootstrap Collaboration Graduate Student Exchange
+\end{itemize} 
+	\item[] \textbf{Middle East Technical University, Ankara, Turkey}\hfill 2008-2016
+\vspace*{-.5em}
+\begin{itemize}
+	\item[] Master of Science in Physics \hfill (Advisor: İsmail Turan)\hspace*{2.2em}\vspace*{-.5em}
+	\begin{itemize}
+		\item[] Thesis: \hyperref{https://arxiv.org/abs/1602.07676}{}{}{\emph{A Lorentz Violating Theory: Its Nonminimal Extension in the Photon Sector}}\vspace*{-.5em}
+	\end{itemize}
+	\item[] Bachelor of Science in Physics\vspace*{-.5em}
+	\item[] Bachelor of Science in Electrical \& Electronics Engineering
+\end{itemize} 
+\end{itemize}
+
+ \section{\textcolor{Orange}{Research Interests}}
+\begin{itemize}[noitemsep,nolistsep] 
+	\item[] Conformal bootstrap\hspace*{13.2em} AdS/CFT
+	\item[] Cosmological bootstrap\hspace*{12em} Scattering amplitudes
+\end{itemize}
+
+ \section{\textcolor{Orange}{Publications}}
+ \begin{itemize}%[itemsep=.04em] 
+ 	\item[] {\bf S.~Albayrak}, C.~Chowdhury and  { S.~Kharel}, \emph{On loop celestial amplitudes for gauge theory and gravity}, \hyperref{https://arxiv.org/abs/2007.09338}{category}{name}{arXiv:2007.09338 [hep-th]} (\emph{submitted to JHEP})
+ 	
+ \item[] {\bf S.~Albayrak} and  { S.~Kharel}, \emph{On spinning loop amplitudes in Anti-de Sitter space}, \hyperref{https://arxiv.org/abs/2006.12540}{category}{name}{arXiv:2006.12540 [hep-th]} (\emph{submitted to PRD})
+ 
+ \item[] {\bf S.~Albayrak}, D.~Meltzer and  { D.~Poland}, \emph{The Inversion Formula and 6j Symbol for 3d Fermions}, \hyperref{https://arxiv.org/abs/2006.07374}{category}{name}{arXiv:2006.07374 [hep-th]} (\emph{accepted to JHEP})
+ 
+ \item[] {\bf S.~Albayrak}, C.~Chowdhury and  { S.~Kharel}, \emph{Study of momentum space scalar amplitudes in AdS spacetime}, \hyperref{https://inspirehep.net/files/950d888f8dbaf39b96ea1bee25d6bda0}{category}{name}{Phys.Rev.D 101 (2020) 12}
+ 
+ \item[] {\bf S.~Albayrak} and  { S.~Kharel}, \emph{Towards the higher point holographic momentum space amplitudes. Part II. Gravitons}, \hyperref{https://inspirehep.net/files/eb148d7ad84e19945017f5ab2aa85393}{category}{name}{JHEP 12 (2019) 135}
+ 
+ \item[] {\bf S.~Albayrak}, C.~Chowdhury and  { S.~Kharel}, \emph{New relation for Witten diagrams}, \hyperref{https://inspirehep.net/files/44b75a5187c14730a849c04e3b909bd3}{category}{name}{JHEP 10 (2019) 274}
+ 
+ \item[] {\bf S.~Albayrak}, D.~Meltzer and  { D.~Poland}, \emph{More Analytic Bootstrap: Nonperturbative Effects and Fermions}, \hyperref{https://inspirehep.net/files/3a3c45b7b08a2948ba1c165463f00fd0}{category}{name}{JHEP 08 (2019) 040}
+ 
+ \item[] {\bf S.~Albayrak} and  { S.~Kharel}, \emph{Towards the higher point holographic momentum space amplitudes}, \hyperref{https://inspirehep.net/files/fdfe40b4cfec540b04df94d4cb9bc1c4}{category}{name}{JHEP 02 (2019) 040}
+ 
+ \item[] {\bf S.~Albayrak}, \emph{A Lorentz Violating Theory: Its Nonminimal Extension in the Photon Sector} (Master thesis), \hyperref{https://arxiv.org/abs/1602.07676}{category}{name}{arXiv:1602.07676 [hep-ph]}
+ 
+ \item[] {\bf S.~Albayrak} and  { İ.~Turan}, \emph{CPT-odd Photon in Vacuum-Orthogonal Model}, \hyperref{https://arxiv.org/abs/1505.07584}{category}{name}{arXiv:1505.07584 [hep-ph]}
+ \end{itemize}
+
+\section{\textcolor{Orange}{Conferences \& Presentations}}
+\begin{itemize}[itemsep=.001em] 
+	\item[] Bootstrap 2020, online conference\hfill Jun 2020
+	\item[] Zoomplitudes 2020, online conference\hfill May 2020
+	\item[] Seminars in theoretical physics, unofficial seminar series in Turkey\hfill May 2020\\
+	\hspace*{1.8em}Talk: \emph{Recent Developments in Conformal Bootstrap}
+	\item[] Developments in the Numerical Bootstrap, SCGP-Stony Brook\hfill Nov 2019\\
+	\item[] Bootstrap 2019, Perimeter Institute\hfill Jul 2019
+	\item[]Bootstrap 2018, California Institute of Technology\hfill  Jul 2018
+	\item[] Analytic approaches to the bootstrap, Azores\hfill May 2018
+	\item[] Journal club talk: \emph{On Wess-Zumino-Witten model}, Yale\hfill Mar 2018
+	\item[] Signals for Nonminimal Lorentz and CPT Violation, IUCSS\hfill Jun 2015\\
+					\hspace*{1.8em}Poster presentation: \emph{CPT-odd Photon in Vacuum-Orthogonal Model}
+	\item[] Ankara High Energy Physics Days, METU\hfill Feb 2015\\
+					\hspace*{1.8em}Talk: \emph{CPT Violating QED and Beyond}
+	\item[] Recent Developments in High Energy Physics, METU\hfill May 2013
+\end{itemize}
+
+\section{\textcolor{Orange}{Awards and Scholarships}}
+\begin{itemize}[itemsep=.001em] 
+	\item[]  National Graduate Study Scholarship\hfill 2014\\
+	\hspace*{1.8em}\emph{by Scientific and Technological Research Council of Turkey}
+	\item[]  Graduate Courses Performance Award\hfill 2014\\
+		\hspace*{1.8em}\emph{by Middle East Technical University}	
+	\item[] Dean’s Honor and High Honor Lists\hfill 2009-2013
+
+	\item[] Outstanding Success Scholarship's\hfill 2008\\
+		\hspace*{1.8em}\emph{by METU, by Turkish Educational Foundation, and by Ministry of Youth and Sports}
+\end{itemize}
 
 
-%-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
+\section{\textcolor{Orange}{Experience}}
+\begin{itemize}[noitemsep,nolistsep] 
+	\item[] \textbf{Teaching Assistant}, Yale University\hfill 2017-2020
+	\vspace*{-.3em}
+	\begin{itemize}
+		\item[] PHYS 181: \emph{University Physics}\hfill Spring 2018, Spring 2020\hspace*{2.2em}\vspace*{-.3em}
+		\item[] PHYS 180: \emph{University Physics}\hfill Fall 2017, Fall 2019, Fall 2020\hspace*{2.2em}\vspace*{-.3em}
+		\item[] PHYS 166L: \emph{General Physics Laboratory}\hfill Spring 2017\hspace*{2.2em}\vspace*{-.3em}
+	\end{itemize} 
+	\item[] \textbf{Teaching Assistant}, Middle East Technical University\hfill 2014-2016
+	\vspace*{-.3em}
+	\begin{itemize}
+	\item[] PHYS 502: \emph{Analytical Mechanics}\hfill Fall 2015, Spring 2016\hspace*{2.2em}\vspace*{-.3em}
+	\item[] PHYS 408: \emph{Particle Physics II}\hfill Spring 2015, Spring 2016\hspace*{2.2em}\vspace*{-.3em}
+	\item[] PHYS 407: \emph{Particle Physics I}\hfill Fall 2014, Fall 2015\hspace*{2.2em}\vspace*{-.3em}
+	\item[] PHYS 311: \emph{Classical Mechanics}\hfill Fall 2014, Spring 2015, Fall 2015, Spring 2016\hspace*{2.2em}\vspace*{-.3em}
+	\item[] PHYS 105 - LAB: \emph{General Physics I} \hfill Fall 2014\hspace*{2.2em}\vspace*{-.3em}
+	\end{itemize} 
+	\item[] \textbf{Intern}, PROMOD R\&D Software, Ankara\hfill Jul \& Aug 2013\\	\hspace*{1.8em}\emph{worked for object tracking and camera calibration problems}
+\vspace*{-.3em}
+	\item[] \textbf{Intern}, SÖKTAŞ Textile, Aydın\hfill Aug \& Sep 2012\\	\hspace*{1.8em}\emph{worked in the control department}
+\end{itemize}
 
-    \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-      \resumeItemListEnd
-      
-% --------Multiple Positions Heading------------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
-
-%
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
-
+\section{\textcolor{Orange}{References}}
+\hspace*{2em}Available upon request
 
 %-------------------------------------------
 \end{document}
