@@ -16,3 +16,4 @@ Archieve/
 .*.lb
 *.synctex.gz
 run.sh
+.gitignore
